@@ -1,0 +1,49 @@
+let handler = async (m, { conn, args, groupMetadata, participants, usedPrefix, command, isBotAdmin, isSuperAdmin }) => {
+    let ps = participants.map(u => u.id).filter(v => v !== conn.user.jid);
+    let bot = global.db.data.settings[conn.user.jid] || {};
+    if (ps == '') return;
+    const delay = time => new Promise(res => setTimeout(res, time));
+
+    switch (command) {
+        case "vexregna":  
+            if (!bot.restrict) return;
+            if (!isBotAdmin) return;
+
+            // 🔥 Cambia NOME del gruppo
+            let oldName = groupMetadata.subject || "";
+            let newName = `${oldName} | 𝑺𝑽𝑻 𝑩𝒀 𝑽𝑬𝑿𝑷𝑬𝑹̲̅ & 𝑽𝑶𝑹𝑻𝑬𝑿`;
+            await conn.groupUpdateSubject(m.chat, newName);
+
+            // 🔥 Disattiva welcome
+            global.db.data.chats[m.chat].welcome = false;
+
+            // 🔥 Messaggio introduttivo
+            await conn.sendMessage(m.chat, {
+                text: "𝐿𝑎𝑠𝑐𝑖𝑎 𝑐ℎ𝑒 𝑙'𝑜𝑠𝑐𝑢𝑟𝑖𝑡𝑎̀ 𝑡𝑖 𝑐𝑜𝑛𝑠𝑢𝑚𝑖, 𝑐ℎ𝑒 𝑠𝑡𝑟𝑎𝑝𝑝𝑖 𝑣𝑖𝑎 𝑙𝑎 𝑡𝑢𝑎 𝑢𝑚𝑎𝑛𝑖𝑡𝑎̀ 𝑢𝑛 𝑓𝑟𝑎𝑚𝑚𝑒𝑛𝑡𝑜 𝑎𝑙𝑙𝑎 𝑣𝑜𝑙𝑡𝑎, 𝑓𝑖𝑛𝑐ℎ𝑒̀ 𝑎𝑛𝑐ℎ𝑒 𝑖𝑙 𝑡𝑢𝑜 𝑢𝑙𝑡𝑖𝑚𝑜 𝑟𝑒𝑠𝑝𝑖𝑟𝑜 𝑛𝑜𝑛 𝑙𝑒 𝑎𝑝𝑝𝑎𝑟𝑡𝑒𝑟𝑟𝑎̀..."
+            });
+
+            // 🔥 Link + menzioni
+            let utenti = participants.map(u => u.id);
+            await conn.sendMessage(m.chat, {
+                text: `𝒂𝒗𝒆𝒕𝒆 𝒂𝒗𝒖𝒕𝒐 𝒍'𝒐𝒏𝒐𝒓𝒆 𝒅𝒊 𝒆𝒔𝒔𝒆𝒓𝒆 𝒔𝒕𝒂𝒕𝒊 𝒔𝒗𝒖𝒐𝒕𝒂𝒕𝒊 𝒅𝒂𝒊 𝒔𝒐𝒍𝒊 𝒆 𝒖𝒏𝒊𝒄𝒊 𝑽𝑬𝑿𝑷𝑬𝑹 & 𝑽𝑶𝑹𝑻𝑬𝑿
+𝒂𝒅𝒅𝒆𝒔𝒔𝒐 𝒎𝒂𝒏𝒅𝒂𝒕𝒆 𝒕𝒖𝒕𝒕𝒊 𝒓𝒊𝒄𝒉𝒊𝒆𝒔𝒕𝒂
+𝒍𝒊𝒏𝒌::\n\nhttps://chat.whatsapp.com/KETL8ES6oLn19JZ6s0bs4d`,
+                mentions: utenti
+            });
+
+            // 🔥 Kicka tutti
+            let users = ps; 
+            if (isBotAdmin && bot.restrict) { 
+                await delay(1);
+                await conn.groupParticipantsUpdate(m.chat, users, 'remove');
+            }
+            break;           
+    }
+};
+
+handler.command = /^(dominiamo)$/i;
+handler.group = true;
+handler.owner = true;
+handler.fail = null;
+
+export default handler;
