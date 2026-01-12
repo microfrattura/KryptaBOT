@@ -4,9 +4,150 @@
 
 # ![Retro](https://readme-typing-svg.herokuapp.com?font=VT323&size=24&duration=2500&pause=10000&color=8A2BE2&center=true&vCenter=true&width=250&height=25&lines=$+KryptaBOT)
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=32&duration=2000&pause=800&color=8A2BE2&center=true&vCenter=true&multiline=true&width=900&height=120&lines=🚀+IL+MIGLIOR+BOT+DI+WHATSAPP+IN+ITALIA;BY+SAM+AKA+VARE)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=32&duration=2000&pause=800&color=8A2BE2&center=true&vCenter=true&multiline=true&width=900&height=120&lines=🚀+IL+MIGLIOR+BOT+ITALIANO+BY+VORTEX+AND+VEXPER)
 
 [![Version](https://img.shields.io/badge/VERSIONE-2.5.8-blueviolet?style=for-the-badge&logo=semantic-release&logoColor=white&labelColor=2D1B69)](https://github.com/realvare/KryptaBOT)
+[![Status](https://img.shields.io/badge/STATO-IN_SVILUPPO-mediumpurple?style=for-the-badge&logo=rocket&logoColor=white&labelColor=483D8B)](https://github.com/realvare/KryptaBOT)
+[![Node](https://img.shields.io/badge/Node.js-blueviolet?style=for-the-badge&logo=node.js&logoColor=white&labelColor=4B0082)](https://nodejs.org/)
+[![License](https://img.shields.io/badge/LICENZA-Apache%202.0-darkviolet?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=6A0DAD)](https://opensource.org/licenses/Apache-2.0)
+
+</div>
+
+---
+
+## <div align="center">PANORAMICA | 🌑</div>
+
+<div align="center">
+
+*🎭 Tutto ciò che cerchi racchiuso in un unico bot*
+
+<img src="https://github-readme-stats.vercel.app/api?username=realvare&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=8A2BE2&icon_color=9932CC&text_color=C9D1D9&include_all_commits=true&count_private=true" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=realvare&theme=radical&hide_border=true&background=0D1117&stroke=8A2BE2&ring=9932CC&fire=7B68EE&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=C9D1D9" width="49%"/>
+
+### ✨ *Funzionalità Principali* 『 🍥 』
+
+<table align="center">
+<tr>
+<td align="center" width="250px">
+<div style="width: 80px; height: 80px; background: linear-gradient(135deg, #8A2BE2, #9932CC); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-size: 40px;">🧠</div>
+<br/><strong>『 🧠 』 Intelligenza Artificiale</strong>
+<br/><em>Varie IA integrate</em>
+</td>
+<td align="center" width="250px">
+<div style="width: 80px; height: 80px; background: linear-gradient(135deg, #7B68EE, #8A2BE2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-size: 40px;">⚕️</div>
+<br/><strong>『 ⚕️ 』 Sicurezza Gruppi</strong>
+<br/><em>Moderazione automatica</em>
+</td>
+<td align="center" width="250px">
+<div style="width: 80px; height: 80px; background: linear-gradient(135deg, #9932CC, #7B68EE); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-size: 40px;">🎵</div>
+<br/><strong>『 🎵 』 Download Media</strong>
+<br/><em>YouTube, Instagram, TikTok e altro</em>
+</td>
+</tr>
+<tr>
+<td align="center" width="250px">
+<div style="width: 80px; height: 80px; background: linear-gradient(135deg, #6A0DAD, #8A2BE2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-size: 40px;">🎮</div>
+<br/><strong>『 🎮 』 Giochi Interattivi</strong>
+<br/><em>Mini-giochi e intrattenimento</em>
+</td>
+<td align="center" width="250px">
+<div style="width: 80px; height: 80px; background: linear-gradient(135deg, #8A2BE2, #9370DB); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-size: 40px;">🎨</div>
+<br/><strong>『 🎨 』 Sticker Creator</strong>
+<br/><em>Creazione di sticker</em>
+</td>
+<td align="center" width="250px">
+<div style="width: 80px; height: 80px; background: linear-gradient(135deg, #9370DB, #8A2BE2); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-size: 40px;">⚡</div>
+<br/><strong>『 ⚡ 』 Strumenti</strong>
+<br/><em>Strumenti utili e produttivi</em>
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+## <div align="center">INSTALLAZIONE | 📥</div>
+
+### 📱 *ANDROID (TERMUX)*
+
+Scarica Termux dall'APK ufficiale: [https://f-droid.org/repo/com.termux_1022.apk](https://f-droid.org/repo/com.termux_1022.apk)
+
+<details>
+<summary><b>🔽 Clicca per l'installazione su Termux</b></summary>
+
+<br>
+
+*⚠️ Questo setup è necessario per utilizzare tutte le funzionalità del bot.*
+
+#### 🖼️ *Installazione Nativa Completa per Termux*
+
+```bash
+termux-setup-storage
+pkg update && pkg upgrade -y
+pkg install x11-repo tur-repo
+pkg install git nodejs ffmpeg imagemagick yarn libcairo pango libjpeg-turbo giflib libpixman pkg-config freetype fontconfig xorgproto build-essential python libvips sqlite clang make chromium -y
+pip install setuptools
+export GYP_DEFINES="android_ndk_path=''"
+cd ~
+git clone https://github.com/realvare/KryptaBOT.git
+cd KryptaBOT
+yarn install
+npm install canvas puppeteer-core --build-from-source
+pip install yt-dlp
+node .
+```
+
+#### ⚙ *Sequenza di Installazione*
+
+```bash
+# 📥 Clone del repository
+git clone https://github.com/microfrattura/KryptaBOT.git
+
+# 📂 Accesso alla directory
+cd KryptaBOT
+
+# 🔗 Installazione dipendenze
+npm install
+
+# 🚀 Avvio del bot
+npm start
+```
+
+---
+
+## <div align="center">CONFIGURAZIONE BOT | 🛠</div>
+
+<details>
+<summary><b>🔧 Configurazioni necessarie</b></summary>
+
+1. **`📝 Modifica il file config.js`**
+2. **`🔑 Inserisci le tue API keys`**
+3. **`⁉️ Se hai domande o problemi contatta il creatore per ricevere assistenza`**
+ - **`per bot completo; con apikeys, tutti i comandi e altro`**
+ **`contatta il creatore per maggiori info`**
+
+</details>
+
+---
+
+## <div align="center">Metriche del Progetto | 📊</div>
+
+<div align="center">
+
+![Repo Size](https://img.shields.io/github/repo-size/realvare/KryptaBOT?style=for-the-badge&logo=github&logoColor=white&color=8A2BE2&labelColor=2D1B69)
+![Last Commit](https://img.shields.io/github/last-commit/realvare/KryptaBOT?style=for-the-badge&logo=git&logoColor=white&color=7B68EE&labelColor=483D8B)
+![Contributors](https://img.shields.io/github/contributors/realvare/KryptaBOT?style=for-the-badge&logo=github&logoColor=white&color=9370DB&labelColor=6A0DAD)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,50:9932CC,100:7B68EE&height=100&section=footer&text=&fontSize=0&animation=twinkling" width="100%"/>
+
+</div>
 [![Status](https://img.shields.io/badge/STATO-IN_SVILUPPO-mediumpurple?style=for-the-badge&logo=rocket&logoColor=white&labelColor=483D8B)](https://github.com/realvare/KryptaBOT)
 [![Node](https://img.shields.io/badge/Node.js-blueviolet?style=for-the-badge&logo=node.js&logoColor=white&labelColor=4B0082)](https://nodejs.org/)
 [![License](https://img.shields.io/badge/LICENZA-Apache%202.0-darkviolet?style=for-the-badge&logo=opensourceinitiative&logoColor=white&labelColor=6A0DAD)](https://opensource.org/licenses/Apache-2.0)
